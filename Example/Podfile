@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VerticalSlider_Example' do
+  pod 'VerticalSlider', :path => '../'
+
+  target 'VerticalSlider_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

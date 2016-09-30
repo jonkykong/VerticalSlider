@@ -1,0 +1,16 @@
+PODS:
+  - VerticalSlider (0.1.0)
+
+DEPENDENCIES:
+  - VerticalSlider (from `../`)
+
+EXTERNAL SOURCES:
+  VerticalSlider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VerticalSlider: 994ceaae9b94a2c5769481771f13c7e6cb6528e6
+
+PODFILE CHECKSUM: 503d0dfdee1a3461856face8815f8f2f7e872293
+
+COCOAPODS: 1.0.1

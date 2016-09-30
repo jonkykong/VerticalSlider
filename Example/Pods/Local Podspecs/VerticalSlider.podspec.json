@@ -1,0 +1,22 @@
+{
+  "name": "VerticalSlider",
+  "version": "0.1.0",
+  "summary": "A short description of VerticalSlider.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/VerticalSlider",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jonkykong": "jpkent@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/VerticalSlider.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VerticalSlider/Classes/**/*"
+}
