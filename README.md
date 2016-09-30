@@ -34,6 +34,7 @@ pod "VerticalSlider"
 ### Storyboard Implementation
 1. Create a View for a VerticalSlider. Set the custom class of the View to be `VerticalSlider` in the **Identity Inspector**. Interface Builder should update the view to show a VerticalSlider.
 ![](etc/Screenshot1.png)
+
 2. Configure VerticalSlider's properties any way you like!
 ![](etc/Screenshot2.png)
 
