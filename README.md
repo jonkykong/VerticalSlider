@@ -12,8 +12,8 @@ VerticalSlider is a vertical implementation of the UISlider control. Visual prop
 Check out the example project to see it in action!
 
 ## Requirements
-* Swift 3
-* iOS 8 or higher
+- [x] Swift 3
+- [x] iOS 8 or higher
 
 ## Installation
 ### CocoaPods
