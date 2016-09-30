@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   VerticalSlider is a vertical implementation of the UISlider control. Visual properties of the slider have been exposed through interface builder. The underlying UISlider control can be accessed through VerticalSlider's slider property.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/VerticalSlider'
+  s.homepage         = 'https://github.com/jonkykong/VerticalSlider'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jonkykong' => 'contact@jonkent.me' }
