@@ -27,7 +27,17 @@ $ gem install cocoapods
 To integrate VerticalSlider into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod "VerticalSlider"
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+pod 'VerticalSlider'
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
 ```
 
 ## Usage
@@ -41,12 +51,12 @@ pod "VerticalSlider"
 ### Code Implementation
 First:
 ```swift
-import SideMenu
+import VerticalSlider
 ```
 
 Next, declare your VerticalSlider at the top of your View Controller and link it in Interface Builder:
 ```swift
-    @IBOutlet var verticalSlider: VerticalSlider!
+@IBOutlet var verticalSlider: VerticalSlider!
 ```
 
 In your View Controller's `viewDidLoad` event, do something like this:
