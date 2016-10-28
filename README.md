@@ -72,6 +72,9 @@ func sliderChanged() {
 ```
 That's it.
 
+## Code
+This is a simple library contained in a single file. If you prefer to add it manually instead of taking a dependency, here's the [code](https://github.com/jonkykong/VerticalSlider/blob/master/VerticalSlider/Classes/VerticalSlider.swift).
+
 ## About Me
 My name is Jon Kent and I'm a freelance iOS designer, developer, and mobile strategist. I love coffee and play the drums. **Hire me!**
 
