@@ -7,7 +7,7 @@
 **If you like VerticalSlider, give it a ★ at the top right of this page.**
 
 ## Overview
-VerticalSlider is a vertically oriented UISlider control embedded in a UIView. It renders vertically in Interface Builder and visual properties of the slider have been exposed for convenience. The underlying UISlider control can be accessed through VerticalSlider's slider property.
+VerticalSlider is a vertically oriented UISlider control embedded in a UIView. As an `@IBDesignable` class, it renders vertically in Interface Builder and visual properties of the slider have been exposed in the _Attributes Inspector_ for convenience. The underlying UISlider control can be accessed through VerticalSlider's `slider` property.
 
 Check out the example project to see it in action!
 
