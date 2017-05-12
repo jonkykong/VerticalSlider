@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VerticalSlider'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'VerticalSlider is a vertical implementation of the UISlider slider control.'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/jonkykong/VerticalSlider'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = [ "https://raw.githubusercontent.com/jonkykong/VerticalSlider/master/etc/Screenshot1.png", "https://raw.githubusercontent.com/jonkykong/VerticalSlider/master/etc/Screenshot2.png" ]
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jonkykong' => 'contact@jonkent.me' }
   s.source           = { :git => 'https://github.com/jonkykong/VerticalSlider.git', :tag => s.version.to_s }
