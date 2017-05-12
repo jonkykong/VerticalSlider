@@ -33,9 +33,9 @@ import UIKit
     
     fileprivate func updateSlider() {
         if !ascending {
-            slider.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI) * -0.5)
+            slider.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi) * -0.5)
         } else {
-            slider.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI) * 0.5).scaledBy(x: 1, y: -1)
+            slider.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi) * 0.5).scaledBy(x: 1, y: -1)
         }
         
         slider.minimumValue = minimumValue
