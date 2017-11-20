@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable open class VerticalSlider: UIView {
+@IBDesignable open class VerticalSlider: UIControl {
     
     open let slider = UISlider()
     
