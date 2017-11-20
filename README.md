@@ -59,9 +59,11 @@ Next, declare your VerticalSlider at the top of your View Controller and link it
 @IBOutlet var verticalSlider: VerticalSlider!
 ```
 
-In your View Controller's `viewDidLoad` event, do something like this:
+You can link any `@IBAction` to Interface Builder events or you can programmatically respond to events the same way you do with the standard `UISlider` control. 
+
+Programmatic example - in your View Controller's `viewDidLoad` event:
 ``` swift
-verticalSlider.slider.addTarget(self, action: #selector(sliderChanged), for: .valueChanged)
+verticalSlider.addTarget(self, action: #selector(sliderChanged), for: .valueChanged)
 ```
 Then add the method that will be called when the slider's value changes:
 ``` swift

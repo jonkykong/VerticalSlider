@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable open class VerticalSlider: UIView {
+@IBDesignable open class VerticalSlider: UIControl {
     
     open let slider = UISlider()
     
@@ -111,4 +111,13 @@ import UIKit
             updateSlider()
         }
     }
+    
+    open override func addTarget(_ target: Any?, action: Selector, for controlEvents: UIControlEvents) {
+        slider.addTarget(target, action: action, for: controlEvents)
+    }
+    
+    open override func removeTarget(_ target: Any?, action: Selector?, for controlEvents: UIControlEvents) {
+        slider.removeTarget(target, action: action, for: controlEvents)
+    }
+    
 }
