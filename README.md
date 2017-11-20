@@ -12,8 +12,8 @@ VerticalSlider is a vertically oriented UISlider control embedded in a UIView. A
 Check out the example project to see it in action!
 
 ## Requirements
-- [x] Swift 3
-- [x] iOS 8 or higher
+- [x] Swift 4
+- [x] iOS 9 or higher
 
 ## Installation
 ### CocoaPods
