@@ -48,6 +48,17 @@ import UIKit
     override open func layoutSubviews() {
         super.layoutSubviews()
         
+        // HACK:
+        // Rotate the thumb image for the downward drop shadow. As of iOS 11, the thumb is a premade image.
+        // If you don't want a drop shadow, replace the slider's currentThumbImage.
+        if let thumb = slider.subviews.last as? UIImageView {
+            if ascending {
+                thumb.transform = CGAffineTransform(rotationAngle: CGFloat.pi * -0.5)
+            } else {
+                thumb.transform = CGAffineTransform(rotationAngle: CGFloat.pi * 0.5)
+            }
+        }
+        
         slider.bounds.size.width = bounds.height
         slider.center.x = bounds.midX
         slider.center.y = bounds.midY
