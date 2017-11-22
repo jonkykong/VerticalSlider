@@ -32,19 +32,11 @@ import UIKit
     }
     
     fileprivate func updateSlider() {
-        if !ascending {
-            slider.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi) * -0.5)
+        if ascending {
+            slider.transform = CGAffineTransform(rotationAngle: CGFloat.pi * 0.5).scaledBy(x: 1, y: -1)
         } else {
-            slider.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi) * 0.5).scaledBy(x: 1, y: -1)
+            slider.transform = CGAffineTransform(rotationAngle: CGFloat.pi * -0.5)
         }
-        
-        slider.minimumValue = minimumValue
-        slider.maximumValue = maximumValue
-        slider.value = value
-        slider.thumbTintColor = thumbTintColor
-        slider.minimumTrackTintColor = minimumTrackTintColor
-        slider.maximumTrackTintColor = maximumTrackTintColor
-        slider.isContinuous = isContinuous
     }
     
     @IBInspectable open var ascending: Bool = false {
@@ -55,6 +47,17 @@ import UIKit
     
     override open func layoutSubviews() {
         super.layoutSubviews()
+        
+        // HACK:
+        // Rotate the thumb image for the downward drop shadow. As of iOS 11, the thumb is a premade image.
+        // If you don't want a drop shadow, replace the slider's currentThumbImage.
+        if let thumb = slider.subviews.last as? UIImageView {
+            if ascending {
+                thumb.transform = CGAffineTransform(rotationAngle: CGFloat.pi * -0.5)
+            } else {
+                thumb.transform = CGAffineTransform(rotationAngle: CGFloat.pi * 0.5)
+            }
+        }
         
         slider.bounds.size.width = bounds.height
         slider.center.x = bounds.midX
@@ -67,15 +70,21 @@ import UIKit
         }
     }
     
-    @IBInspectable open var minimumValue: Float = -1 {
-        didSet {
-            updateSlider()
+    @IBInspectable open var minimumValue: Float {
+        get {
+            return slider.minimumValue
+        }
+        set {
+            slider.minimumValue = newValue
         }
     }
     
-    @IBInspectable open var maximumValue: Float = 1 {
-        didSet {
-            updateSlider()
+    @IBInspectable open var maximumValue: Float {
+        get {
+            return slider.maximumValue
+        }
+        set {
+            slider.maximumValue = newValue
         }
     }
     
@@ -89,26 +98,38 @@ import UIKit
     }
     
     @IBInspectable open var thumbTintColor: UIColor? {
-        didSet {
-            updateSlider()
+        get {
+            return slider.thumbTintColor
+        }
+        set {
+            slider.thumbTintColor = newValue
         }
     }
     
     @IBInspectable open var minimumTrackTintColor: UIColor? {
-        didSet {
-            updateSlider()
+        get {
+            return slider.minimumTrackTintColor
+        }
+        set {
+            slider.minimumTrackTintColor = newValue
         }
     }
     
     @IBInspectable open var maximumTrackTintColor: UIColor? {
-        didSet {
-            updateSlider()
+        get {
+            return slider.maximumTrackTintColor
+        }
+        set {
+            slider.maximumTrackTintColor = newValue
         }
     }
     
-    @IBInspectable open var isContinuous: Bool = true {
-        didSet {
-            updateSlider()
+    @IBInspectable open var isContinuous: Bool {
+        get {
+            return slider.isContinuous
+        }
+        set {
+            slider.isContinuous = newValue
         }
     }
     

@@ -5,6 +5,10 @@
 [![Platform](https://img.shields.io/cocoapods/p/VerticalSlider.svg?style=flat)](http://cocoapods.org/pods/VerticalSlider)
 
 **If you like VerticalSlider, give it a ★ at the top right of this page.**
+> Hi, I'm Jon Kent and I am an iOS designer, developer, and mobile strategist. I love coffee and play the drums.
+> * [**Hire me**](mailto:yo@massappeal.co?subject=Let's%20build%20something%20amazing) to help you make cool stuff. *Note: If you're having a problem with VerticalSlider, please open an [issue](https://github.com/jonkykong/VerticalSlider/issues/new) and do not email me.*
+> * Check out my [website](http://massappeal.co) to see some of my other projects.
+> * Building and maintaining this free library takes time. Help keep me awake and buy me a coffee ☕️ via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=contact%40jonkent%2eme&lc=US&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted).
 
 ## Overview
 VerticalSlider is a vertically oriented UISlider control embedded in a UIView. As an `@IBDesignable` class, it renders vertically in Interface Builder and visual properties of the slider have been exposed in the _Attributes Inspector_ for convenience. The underlying UISlider control can be accessed through VerticalSlider's `slider` property.
@@ -12,8 +16,7 @@ VerticalSlider is a vertically oriented UISlider control embedded in a UIView. A
 Check out the example project to see it in action!
 
 ## Requirements
-- [x] Swift 4
-- [x] iOS 9 or higher
+* iOS 9 or higher.
 
 ## Installation
 ### CocoaPods
@@ -76,13 +79,6 @@ That's it.
 
 ## Code
 This is a simple library contained in a single file. If you prefer to add it manually instead of taking a dependency, here's the [code](https://github.com/jonkykong/VerticalSlider/blob/master/VerticalSlider/Classes/VerticalSlider.swift).
-
-## About Me
-My name is Jon Kent and I'm a freelance iOS designer, developer, and mobile strategist. I love coffee and play the drums. **Hire me!**
-
-🌎 Web: [http://jonkent.me](http://jonkent.me)
-
-✉️ Email: [contact@jonkent.me](mailto:contact@jonkent.me) **IMPORTANT: Before emailing me, please read [this](https://github.com/jonkykong/VerticalSlider/issues/1).**
 
 ## License
 
