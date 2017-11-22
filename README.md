@@ -80,13 +80,6 @@ That's it.
 ## Code
 This is a simple library contained in a single file. If you prefer to add it manually instead of taking a dependency, here's the [code](https://github.com/jonkykong/VerticalSlider/blob/master/VerticalSlider/Classes/VerticalSlider.swift).
 
-## About Me
-My name is Jon Kent and I'm a freelance iOS designer, developer, and mobile strategist. I love coffee and play the drums. **Hire me!**
-
-🌎 Web: [http://jonkent.me](http://jonkent.me)
-
-✉️ Email: [contact@jonkent.me](mailto:contact@jonkent.me) **IMPORTANT: Before emailing me, please read [this](https://github.com/jonkykong/VerticalSlider/issues/1).**
-
 ## License
 
 VerticalSlider is available under the MIT license. See the LICENSE file for more info.
