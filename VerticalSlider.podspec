@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/jonkykong/VerticalSlider'
-  s.screenshots      = [ "https://raw.githubusercontent.com/jonkykong/VerticalSlider/master/etc/Screenshot1.png", "https://raw.githubusercontent.com/jonkykong/VerticalSlider/master/etc/Screenshot2.png" ]
+#  s.screenshots      = [ "https://raw.githubusercontent.com/jonkykong/VerticalSlider/master/etc/Screenshot1.png", "https://raw.githubusercontent.com/jonkykong/VerticalSlider/master/etc/Screenshot2.png" ]
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jonkykong' => 'contact@jonkent.me' }
   s.source           = { :git => 'https://github.com/jonkykong/VerticalSlider.git', :tag => s.version.to_s }

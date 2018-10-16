@@ -10,7 +10,7 @@ import UIKit
 
 @IBDesignable open class VerticalSlider: UIControl {
     
-    open let slider = UISlider()
+    public let slider = UISlider()
     
     // required for IBDesignable class to properly render
     required public init?(coder aDecoder: NSCoder) {
