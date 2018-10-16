@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/VerticalSlider.svg?style=flat)](http://cocoapods.org/pods/VerticalSlider)
 [![Platform](https://img.shields.io/cocoapods/p/VerticalSlider.svg?style=flat)](http://cocoapods.org/pods/VerticalSlider)
 
-**If you like VerticalSlider, give it a ★ at the top right of this page.**
+### If you like SideMenu, give it a ★ at the top right of its [GitHub](https://github.com/jonkykong/VerticalSlider) page.
 > Hi, I'm Jon Kent and I am an iOS designer, developer, and mobile strategist. I love coffee and play the drums.
 > * [**Hire me**](mailto:yo@massappeal.co?subject=Let's%20build%20something%20amazing) to help you make cool stuff. *Note: If you're having a problem with VerticalSlider, please open an [issue](https://github.com/jonkykong/VerticalSlider/issues/new) and do not email me.*
 > * Check out my [website](http://massappeal.co) to see some of my other projects.
