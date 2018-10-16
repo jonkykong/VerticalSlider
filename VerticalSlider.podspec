@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VerticalSlider'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'VerticalSlider is a vertical implementation of the UISlider slider control.'
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '4.2'
 
   s.source_files = 'VerticalSlider/Classes/**/*'
   
